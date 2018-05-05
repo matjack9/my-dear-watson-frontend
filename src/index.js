@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 import "./styles/index.css";
 
 ReactDOM.render(
-	<Router>
+	<Router basename={process.env.PUBLIC_URL}>
 		<div>
 			<Navbar />
 			<App />

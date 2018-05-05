@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_ROOT = "http://localhost:3000/api/v1";
+// const API_ROOT = "http://localhost:3000/api/v1";
+const API_ROOT = "https://my-dear-watson.herokuapp.com/api/v1";
 const API_VER = 1;
 
 axios.defaults.baseURL = API_ROOT;

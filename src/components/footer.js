@@ -15,13 +15,13 @@ const Footer = () => {
 				<Image
 					centered
 					size="mini"
-					src={window.location.origin + "/assets/brain.png"}
+					src={
+						window.location.origin + "/my-dear-watson-frontend/assets/brain.png"
+					}
 				/>
 				<Divider inverted />
 				<List horizontal inverted divided link>
-					<List.Item as="a" href="/">
-						Home
-					</List.Item>
+					<List.Item>Home (disabled)</List.Item>
 					<List.Item
 						as="a"
 						target="_blank"
